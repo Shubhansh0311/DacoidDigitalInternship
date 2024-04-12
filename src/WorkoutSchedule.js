@@ -12,16 +12,16 @@ import "../src/App.css";
 const WorkoutSchedule = () => {
   const navigate = useNavigate();
 
-  const [selectedDay, setSelectedDay] = useState(null);
+  const [selectedDay, setSelectedDay] = useState(1);
 
-  const days = ["Sun", "Mon", "Tue", "Wed", "Thur"];
+  const days = ["Sun", "Mon", "Tue", "Wed", "Thur","Fri","Sat"];
   const time = [6, 7, 8, 9, 10, 11, 12, 1, 2, 3, 4, 5];
 
   const handleDaySelection = (index) => {
     setSelectedDay(index);
   };
   return (
-    <div className="max-w-[480px]  overflow-hidden h-[full] flex w-full mb-0py-1 px-2 mx-auto mt-4 justify-center">
+    <div className="max-w-[480px] border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto my-4 justify-center">
       <div className="w-full">
         <div className="statusbar  flex justify-between">
           <span>9:41</span>
@@ -161,7 +161,7 @@ const WorkoutSchedule = () => {
           </span>
         </div>
         <div
-          className="rounded-[50%] relative bottom-16 shadow-md shadow-gray-400  left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
+          className="rounded-[50%] relative bottom-10 shadow-md shadow-gray-400  left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
           onClick={() => {
             navigate("/schedule");
           }}
