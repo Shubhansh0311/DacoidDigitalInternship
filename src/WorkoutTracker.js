@@ -51,7 +51,7 @@ const WorkoutTracker = () => {
           <Link to="" className="text-md text-gray-800">
             Upcoming event
           </Link>
-          <Link to="" className="text-[16px] text-gray-400">
+          <Link to="" className="text-[16px] hover:underline text-gray-400">
             See more
           </Link>
         </div>
@@ -114,12 +114,14 @@ const WorkoutTracker = () => {
             <img src="image3.png" alt="img3" />
           </div>
         </div>
-        <div className="rounded-[50%] relative bottom-5 shadow-md shadow-gray-400 m-0 left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
-        onClick={()=>{
-          navigate("/schedule")
-        }}>
+        <div
+          className="rounded-[50%] relative bottom-5 shadow-md shadow-gray-400 m-0 left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
+          onClick={() => {
+            navigate("/schedule");
+          }}
+        >
           <span>
-            <CiSearch size={30} fill="white"/>
+            <CiSearch size={30} fill="white" />
           </span>
         </div>
       </div>
