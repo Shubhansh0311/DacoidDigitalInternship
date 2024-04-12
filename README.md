@@ -1,3 +1,29 @@
+# Project flow
+# Home page 
+# Start Page
+# Sign Page  : there is no need to fill the details simply click over the sign in button In order to see the create account page click over the Create new Account link
+# Signup Page :there is a page to create new Account to see the next page click on sign Link you will be forwarded to sign in page from where you can direct move to the next page
+# Workout Goal Page : Page to select your goals Click on confirm to move to next page
+# Workout Tracker :Page that keep the track of your Activities  click over the search icon to move to next page
+# Workout Schedule Page : Page that keep the track of timings of the workout
+
+
+
+# Home -> Start -> Signin -> Goals -> Workout Tracker -> Workout Schedule
+![Screenshot from 2024-04-13 04-39-39](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/20cbd29b-792f-4d21-9358-2bbbb1ec5680)
+![Screenshot from 2024-04-13 04-40-19](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/81112d55-bb59-4271-989d-2725d3cc1ec4)
+![Screenshot from 2024-04-13 04-40-48](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/36203c81-4849-4400-9dfe-12eb71409fcd)
+![Screenshot from 2024-04-13 04-41-14](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/f5afd967-2572-4a80-8e15-b89f7768ecd1)
+![Screenshot from 2024-04-13 04-41-31](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/b6fc57c1-3807-4fa7-9779-81a61d192b6f)
+![Screenshot from 2024-04-13 04-41-48](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/61b44778-5047-42e1-8b4c-37d6cffe0626)
+![Screenshot from 2024-04-13 04-42-52](https://github.com/Shubhansh0311/DacoidDigitalInternship/assets/115573906/09377248-e54b-4d2e-8390-10eb0666dbe2)
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
