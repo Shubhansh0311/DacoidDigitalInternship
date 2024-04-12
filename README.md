@@ -1,7 +1,7 @@
 # Project flow
 # Home page 
 # Start Page
-# Sign Page  : there is no need to fill the details simply click over the sign in button In order to see the create account page click over the Create new Account link
+# Signin Page  : there is no need to fill the details simply click over the sign in button In order to see the create account page click over the Create new Account link
 # Signup Page :there is a page to create new Account to see the next page click on sign Link you will be forwarded to sign in page from where you can direct move to the next page
 # Workout Goal Page : Page to select your goals Click on confirm to move to next page
 # Workout Tracker :Page that keep the track of your Activities  click over the search icon to move to next page
