@@ -4,7 +4,7 @@ import { IoWifi } from "react-icons/io5";
 import { IoBatteryFull } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
 const Goals = () => {
-    const navigate=useNavigate()
+  const navigate = useNavigate();
   const goals = [
     "Weight loss",
     "Muscle gain",
@@ -14,7 +14,7 @@ const Goals = () => {
     "Mindfullness and mental health",
   ];
   return (
-    <div className="max-w-[480px]  h-[100%] flex w-full py-1 px-2 mx-auto my-4 justify-center">
+    <div className="max-w-[480px] border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto my-4 justify-center">
       <div className="w-full">
         <div className="statusbar  flex justify-between">
           <span>9:41</span>
@@ -47,10 +47,10 @@ const Goals = () => {
           <button
             type="submit"
             class="flex w-full justify-center rounded-md bg-blue-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm active:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-         onClick={()=>{
-            navigate("/tracker")
-         }}
-         >
+            onClick={() => {
+              navigate("/tracker");
+            }}
+          >
             Confirm
           </button>
         </div>

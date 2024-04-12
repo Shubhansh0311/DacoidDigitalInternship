@@ -150,7 +150,7 @@ const WorkoutSchedule = () => {
           })}
         </div>
         <div
-          className="rounded-[50%] fixed bottom-32 shadow-md shadow-gray-400  left-[70%] w-14
+          className="rounded-[50%] relative bottom-40 shadow-md shadow-gray-400  left-[70%] w-14
            h-14 flex justify-center items-center bg-gradient-to-r from-fuchsia-300 to-fuchsia-200 "
           onClick={() => {
             navigate("/tracker");
@@ -161,7 +161,7 @@ const WorkoutSchedule = () => {
           </span>
         </div>
         <div
-          className="rounded-[50%] sticky bottom-6 shadow-md shadow-gray-400  left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
+          className="rounded-[50%] relative bottom-16 shadow-md shadow-gray-400  left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
           onClick={() => {
             navigate("/schedule");
           }}

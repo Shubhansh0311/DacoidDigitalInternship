@@ -21,7 +21,7 @@ const SignIn = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-[480px]   flex w-full  py-1 px-2 mx-auto my-4 justify-center">
+    <div className="max-w-[480px] border-1 rounded-2xl py-2 shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1  mx-auto my-4 justify-center">
       <div>
         <div className="status bar flex justify-between">
           <span>9:41</span>
@@ -40,19 +40,17 @@ const SignIn = () => {
           </div>
 
           <div class="mt-5 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form class="space-y-6" action="#" method="POST">
-              <div>
-                <div class="mt-2">
-                  <input
-                    placeholder="Email"
-                    id="email"
-                    name="email"
-                    type="email"
-                    autocomplete="email"
-                    required
-                    class="block w-full rounded-md outline-none  bg-gray-100 border-none py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6"
-                  />
-                </div>
+            <form class="space-y-6 min-w-[440px]" action="#" method="POST">
+              <div class="mt-2">
+                <input
+                  placeholder="Email"
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  class="block w-full rounded-md outline-none  bg-gray-100 border-none py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                />
               </div>
 
               <div className="flex justify-between rounded-md bg-gray-100 shadow-sm ring-1 ring-inset ring-gray-300  py-1.5 px-2">
@@ -64,7 +62,7 @@ const SignIn = () => {
                     type="password"
                     autocomplete="current-password"
                     required
-                    class="block w-full   border-none bg-gray-100 outline-none   text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                    class=" block w-full  px-2  border-none bg-gray-100 outline-none   text-gray-900 placeholder:text-gray-400 sm:text-sm sm:leading-6"
                   />
                 </div>
                 <span
