@@ -37,7 +37,7 @@ const Start = () => {
           style={{ borderRight: "5px solid #cfbcf7" }}
         >
           <span
-            onClick={() => navigate("/signup")}
+            onClick={() => navigate("/signin")}
             className="rounded-full bg-[#cfbcf7]  flex justify-center  items-center p-5 w-1 h-1"
           >
             <button className="text-white text-[28px]">{">"}</button>
