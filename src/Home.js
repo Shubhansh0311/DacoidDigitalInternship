@@ -37,13 +37,11 @@ const Home = () => {
           className="flex justify-end mt-5 rounded-full p-1 mx-2  "
           style={{ borderRight: "5px solid #cfbcf7" }}
         >
-          <span className="rounded-full bg-[#cfbcf7]  flex justify-center  items-center p-5 w-1 h-1">
-            <button
-              className="text-white text-[28px]"
-              onClick={()=>navigate("/start")}
-            >
-              {">"}
-            </button>
+          <span
+            className="rounded-full bg-[#cfbcf7]  flex justify-center  items-center p-5 w-1 h-1"
+            onClick={() => navigate("/start")}
+          >
+            <button className="text-white text-[28px]">{">"}</button>
           </span>
         </div>
       </div>
