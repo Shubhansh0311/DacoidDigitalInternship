@@ -21,8 +21,8 @@ const SignIn = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="md:w-[480px] overflow-hidden px-2 border-1 rounded-2xl mx-auto pb-6 min-h-full shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1  mt-4 justify-center">
-      <div>
+    <div className="md:w-[480px] overflow-hidden px-2 border-1 rounded-2xl sm:mx-auto pb-6 min-h-full shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1  mt-4 justify-center">
+      <div className="md:w-full">
         <div className="status bar flex justify-between">
           <span>9:41</span>
           <div className="flex justify-evenly w-[20%]">
