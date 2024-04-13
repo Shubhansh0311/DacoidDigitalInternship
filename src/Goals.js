@@ -14,7 +14,7 @@ const Goals = () => {
     "Mindfullness and mental health",
   ];
   return (
-    <div className="max-w-[480px] border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto my-4 justify-center">
+    <div className="max-w-[480px] min-h-full border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto  justify-center">
       <div className="w-full">
         <div className="statusbar  flex justify-between">
           <span>9:41</span>
@@ -24,7 +24,18 @@ const Goals = () => {
             <IoBatteryFull />
           </div>
         </div>
-        <h1 className="text-center text-xl my-4">What are your Goals ?</h1>
+        <div className="flex space-x-12 my-4">
+          <span
+            className="px-2 bg-gray-100"
+            onClick={() => {
+              navigate("/start");
+            }}
+          >
+            {" "}
+            {"<"}
+          </span>
+          <h1 className="text-md">What are your Goals</h1>
+        </div>
 
         {goals.map((element) => {
           return (

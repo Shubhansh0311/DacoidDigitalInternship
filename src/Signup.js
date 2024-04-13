@@ -6,7 +6,7 @@ import { IoWifi } from "react-icons/io5";
 import { IoBatteryFull } from "react-icons/io5";
 const Signup = () => {
   return (
-    <div className="max-w-[480px] border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto my-4 justify-center">
+    <div className="max-w-[480px] border-1 rounded-2xl pb-[28px] shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto  justify-center">
       <div>
         <div className="status bar flex justify-between">
           <span>9:41</span>
@@ -130,7 +130,7 @@ const Signup = () => {
                 </span>
               </div>
             </div>
-            <p className="text-center text-gray-400 m-3 text-sm">Already have an account ? <Link to="/signin" className="text-purple-400 hover:text-blue-400">Signin </Link></p>
+            <p className="text-center text-gray-400 m-2 text-sm">Already have an account ? <Link to="/signin" className="text-purple-400 hover:text-blue-400">Signin </Link></p>
           </div>
         </div>
       </div>

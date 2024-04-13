@@ -119,8 +119,9 @@ input[type="radio"] {
   position: absolute;
   /* top: 4px; */
   left: 5px;
-  width: 50px ;
+  width: 60px ;
   margin: 0px 2px;
+  padding: 0px 10px ;
   height: 88px;
   z-index: -1;
   background:linear-gradient(#afc0fa,#afc0fa);
@@ -138,7 +139,7 @@ input[type="radio"] {
   z-index: 1;
 
   padding-top: 15px;
-  padding-left: 12px; /* Adjust the padding to move the text inside the radio button */
+  padding-left: 20px; /* Adjust the padding to move the text inside the radio button */
   line-height: 20px;
   margin: 0px 4px;
 }

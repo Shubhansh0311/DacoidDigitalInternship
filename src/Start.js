@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Start = () => {
   const navigate = useNavigate();
   return (
-    <div className="max-w-[480px] border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto my-4 justify-center">
+    <div className="max-w-[480px] min-h-full border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full pb-6  py-1 px-2 mx-auto  justify-center">
       <div>
         <div className="status bar flex justify-between">
           <span>9:41</span>
@@ -33,7 +33,7 @@ const Start = () => {
         </p>
 
         <div
-          className=" flex justify-end mt-20 rounded-full p-1 mx-2 "
+          className=" flex justify-end m-[37px] rounded-full p-1 mx-2 "
           style={{ borderRight: "5px solid #cfbcf7" }}
         >
           <span

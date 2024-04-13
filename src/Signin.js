@@ -21,7 +21,7 @@ const SignIn = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="max-w-[480px] border-1 rounded-2xl py-2 shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1  mx-auto my-4 justify-center">
+    <div className="md:w-[480px] overflow-hidden px-2 border-1 rounded-2xl mx-auto pb-6 min-h-full shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1  mt-4 justify-center">
       <div>
         <div className="status bar flex justify-between">
           <span>9:41</span>
@@ -40,7 +40,7 @@ const SignIn = () => {
           </div>
 
           <div class="mt-5 sm:mx-auto sm:w-full sm:max-w-sm">
-            <form class="space-y-6 min-w-[440px]" action="#" method="POST">
+            <form class="space-y-6" action="#" method="POST">
               <div class="mt-2">
                 <input
                   placeholder="Email"
@@ -109,7 +109,7 @@ const SignIn = () => {
                 </span>
               </div>
             </div>
-            <p className="text-center text-gray-400 hover:underline m-2 text-[15px]">
+            <p className="text-center text-gray-400 hover:underline m-2  pb-[75px] text-[15px]">
               Don't have an account yet ?{" "}
               <Link
                 to="/signup"
