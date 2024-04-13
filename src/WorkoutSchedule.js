@@ -167,7 +167,7 @@ const WorkoutSchedule = () => {
         <div
           className="rounded-[50%] relative bottom-10  shadow-md shadow-gray-400  left-[45%] w-14 h-14 flex justify-center items-center bg-[#a1b5fe]  "
           onClick={() => {
-            navigate("/schedule");
+            navigate("/tracker");
           }}
         >
           <span>
