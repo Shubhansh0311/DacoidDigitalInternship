@@ -14,7 +14,7 @@ const Goals = () => {
     "Mindfullness and mental health",
   ];
   return (
-    <div className="max-w-[480px] min-h-full border-1 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto  justify-center">
+    <div className="max-w-[480px] min-h-full border-1 pb-16 rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] flex w-full  py-1 px-2 mx-auto  justify-center">
       <div className="w-full">
         <div className="statusbar  flex justify-between">
           <span>9:41</span>
