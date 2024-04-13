@@ -10,7 +10,7 @@ import { CiSearch } from "react-icons/ci";
 const WorkoutTracker = () => {
   const navigate = useNavigate();
   return (
-    <div className="max-w-[480px] border-1 min-h-full rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] pb-20 flex w-full  py-1 px-2 mx-auto  justify-center">
+    <div className="max-w-[480px] border-1 min-h-full rounded-2xl shadow-lg shadow-gray-300 border-gray-400 h-[100%] pb-16 flex w-full  py-1 px-2 mx-auto  justify-center">
       <div className="w-full">
         <div className="statusbar  flex justify-between">
           <span>9:41</span>
