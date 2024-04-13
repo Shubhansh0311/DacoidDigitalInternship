@@ -106,9 +106,9 @@ const WorkoutTracker = () => {
         <h2 className="my-4"> What do you want to train</h2>
         <div className="flex justify-between bg-[#afc0fa] p-2 rounded-xl">
           <div className="space-y-[2px] my-2">
-            <p className="text-[15px]">Full body workout</p>
-            <p className="text-[15px]">Arms</p>
-            <p className="text-[15px]">Chest</p>
+            <p className="text-[15px] hover:underline">Full body workout</p>
+            <p className="text-[15px] hover:underline">Arms</p>
+            <p className="text-[15px] hover:underline">Chest</p>
           </div>
           <div className="bg-blue-200  rounded-[50%]">
             <img src="image3.png" alt="img3" />
