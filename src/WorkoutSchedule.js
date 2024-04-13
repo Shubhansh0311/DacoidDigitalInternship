@@ -53,7 +53,7 @@ const WorkoutSchedule = () => {
         <div className="flex justify-center">
           <form className="mt-3 ">
             {days.map((e, index) => (
-              <label className="radio-container" key={index}>
+              <label className="radio-container md:mx-[10px]" key={index}>
                 <input
                   type="radio"
                   name="radio"
@@ -61,7 +61,7 @@ const WorkoutSchedule = () => {
                   onChange={() => handleDaySelection(index)}
                 />
                 <div
-                  className={`radio-label ${
+                  className={`radio-label  md:pl-[25px] ${
                     selectedDay === index && "checked"
                   }`}
                 >

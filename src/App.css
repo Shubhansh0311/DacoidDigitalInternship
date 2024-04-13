@@ -84,6 +84,8 @@ input[type="radio"] {
   display: inline-block;
   position: relative;
   cursor: pointer;
+
+
 }
 
 /* Define the square shape */
@@ -139,7 +141,8 @@ input[type="radio"] {
   z-index: 1;
 
   padding-top: 15px;
-  padding-left: 20px; /* Adjust the padding to move the text inside the radio button */
+  padding-left: 12px; 
+  /* Adjust the padding to move the text inside the radio button */
   line-height: 20px;
   margin: 0px 4px;
 }
